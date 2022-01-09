@@ -1,7 +1,14 @@
+import Filter from 'components/filter';
+import Header from 'components/header';
 import './App.css';
 
 function App() {
-  return <h1>Hello World</h1>;
+  return (
+    <>
+      <Header />
+      <Filter />
+    </>
+  );
 }
 
 export default App;
